@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
+    
   },
   "dependencies": {
     "core-js": "^3.4.4",
@@ -22,7 +23,9 @@
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
     "lint-staged": "^9.5.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
@@ -32,5 +35,10 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
